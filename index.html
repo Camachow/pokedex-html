@@ -4,32 +4,167 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokedex</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
 </head>
 <body>
-    <header>
+    <header class="nav">
         <a href="#"> <!--A ancora não leva a lugar nenhum-->
-            <img src="./src/imagens/pokeball.png" alt="Pokeball" class="Logo">
+            <img src="./src/imagens/pokeball.png" alt="Pokeball" class="logo">
         </a>
-        <button>
-            <img src="./src/imagens/moon.png" alt="Theme botton" class="image-botton">
+        <button id="botton-change-theme">
+            <img src="./src/imagens/moon.png" alt="Theme botton" class="botton-image">
         </button>
     </header>
     <main>
-        <ul class="list-pokemon">
-            <li class="card-pokemon">
+        <ul class="pokemon-list">
+            <li class="pokemon-card">
                 <div class="info">
                     <span class="name-pokemon">Bulbasaur</span>
                     <span class="number-pokemon">#001</span>
                 </div>
                 <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif">
-                <ul class="type-pokemon">
-                    <li class="type-grass">Grass</li>
-                    <li class="type-poison">Poison</li>
+                <ul class="pokemon-types">
+                    <li class="type grass">Grass</li>
+                    <li class="type poison">Poison</li>
                 </ul>
-                
                 <p class="description">
                     There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Ivysaur</span>
+                    <span class="number-pokemon">#002</span>
+                </div>
+                <img src="./src/imagens/ivysaur.gif" alt="ivysaur" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type grass">Grass</li>
+                    <li class="type poison">Poison</li>
+                </ul>
+                <p class="description">
+                    When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Venusaur</span>
+                    <span class="number-pokemon">#003</span>
+                </div>
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type grass">Grass</li>
+                    <li class="type poison">Poison</li>
+                </ul>
+                <p class="description">
+                    Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Charmander</span>
+                    <span class="number-pokemon">#004</span>
+                </div>
+                <img src="./src/imagens/charmander.gif" alt="Charmander" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type fire">Fire</li>
+                </ul>
+                <p class="description">
+                    It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Charmeleon</span>
+                    <span class="number-pokemon">#005</span>
+                </div>
+                <img src="./src/imagens/Charmeleon.gif" alt="Charmeleon" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type fire">Fire</li>
+                </ul>
+                <p class="description">
+                    It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Charizard</span>
+                    <span class="number-pokemon">#006</span>
+                </div>
+                <img src="./src/imagens/Charizard.gif" alt="Charizard" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type fire">Fire</li>
+                    <li class="type flying">Flying</li>
+                </ul>
+                <p class="description">
+                    It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Squirtle</span>
+                    <span class="number-pokemon">#007</span>
+                </div>
+                <img src="./src/imagens/Squirtle.gif" alt="Squirtle" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type water">Water</li>
+                </ul>
+                <p class="description">
+                    When it retracts its long neck into its shell, it squirts out water with vigorous force.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Wartortle</span>
+                    <span class="number-pokemon">#008</span>
+                </div>
+                <img src="./src/imagens/Wartortle.gif" alt="Wartortle" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type water">Water</li>
+                </ul>
+                <p class="description">
+                    It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Blastoise</span>
+                    <span class="number-pokemon">#009</span>
+                </div>
+                <img src="./src/imagens/Blastoise.gif" alt="Blastoise" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type water">Water</li>
+                </ul>
+                <p class="description">
+                    It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.
+                </p>
+            </li>
+
+            <li class="pokemon-card">
+                <div class="info">
+                    <span class="name-pokemon">Caterpie</span>
+                    <span class="number-pokemon">#010</span>
+                </div>
+                <img src="./src/imagens/Caterpie.gif" alt="Caterpie" class="gif">
+                <ul class="pokemon-types">
+                    <li class="type bug">Bug</li>
+                </ul>
+                <p class="description">
+                    For protection, it releases a horrible stench from the antenna on its head to drive away enemies.
                 </p>
             </li>
         </ul>
