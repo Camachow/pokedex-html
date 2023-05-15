@@ -24,9 +24,9 @@ changeThemeButton.addEventListener('click', () => {
     changeThemeButton.classList.toggle('dark-theme');
 
     if (body.classList.contains('dark-theme')) {
-        bottonImage.src = '../src/images/sun.png';
+        bottonImage.src = './src/images/sun.png';
     }else if (!body.classList.contains('dark-theme')) {
-        bottonImage.src = '../src/images/moon.png';
+        bottonImage.src = './src/images/moon.png';
     }
 });
 
