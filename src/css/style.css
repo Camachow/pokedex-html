@@ -143,6 +143,34 @@ main .pokemon-card .type {
     background-color: #ee99ac;
 }
 
+.fighting {
+    background-color: #c03028;
+}
+
+.psychic {
+    background-color: #f85888;
+}
+
+.rock {
+    background-color: #b8a038;
+}
+
+.steel {
+    background-color: #b8b8d0;
+}
+
+.ice {
+    background-color: #98d8d8;
+}
+
+.ghost {
+    background-color: #705898;
+}
+
+.dragon {
+    background-color: #7038f8;
+}
+
 main .description {
     font-size: 14px;
     padding-right: 10px;
