@@ -41,6 +41,7 @@ main .pokemon-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
 }
 
 main .pokemon-card {
@@ -64,6 +65,7 @@ main .pokemon-card {
 main .pokemon-card:hover {
     transform: scale(1.1);
     background-color: #96d9d6;
+    box-shadow: 5px 5px 5px #4f4f4f;
 }
 
 main .type-pokemon {
@@ -101,6 +103,74 @@ main .pokemon-card .type {
     padding: 7px;
     border-radius: 10px;
     margin: 5px;
+}
+
+#grass-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #cfec68 0, #b5e664 16.67%, #94db5b 33.33%, #6acc50 50%, #32bc48 66.67%, #00b147 83.33%, #00a94d 100%);
+}
+
+#fire-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #ff9c54 0, #ff8c42 16.67%, #ff7730 33.33%, #ff5f1e 50%, #ff4f0c 66.67%, #ff3f00 83.33%, #ff4f0c 100%);
+}
+
+#water-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #73cfff 0, #5ab9ff 16.67%, #3daeff 33.33%, #1d9eff 50%, #008fff 66.67%, #007fd3 83.33%, #0067a8 100%);
+}
+
+#poison-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #c183c1 0, #b573b5 16.67%, #a963a9 33.33%, #9c539c 50%, #8c4390 66.67%, #7c3384 83.33%, #6c236c 100%);
+}
+
+#flying-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #b3b3f0 0, #a3a3e0 16.67%, #9393d1 33.33%, #8383c1 50%, #7373b2 66.67%, #6363a2 83.33%, #525293 100%);
+}
+
+#bug-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #c6d16e 0, #b3c25b 16.67%, #a0b248 33.33%, #8d9b35 50%, #7a8c22 66.67%, #677e0f 83.33%, #546f00 100%);
+}
+
+#electric-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #ffe87c 0, #ffe16b 16.67%, #ffd95a 33.33%, #ffd249 50%, #ffc93a 66.67%, #ffc129 83.33%, #ffb91a 100%);
+}
+
+#ground-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #ebd69d 0, #e0c68c 16.67%, #d5b67b 33.33%, #c9a86a 50%, #be9959 66.67%, #b38a48 83.33%, #a87b37 100%);
+}
+
+#fairy-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #f7b5f7 0, #f2a5f2 16.67%, #ed96ed 33.33%, #e786e7 50%, #e277e2 66.67%, #dd67dd 83.33%, #d758d7 100%);
+}
+
+#fighting-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #d67873 0, #c76863 16.67%, #b85853 33.33%, #a84843 50%, #983833 66.67%, #882823 83.33%, #781813 100%);
+}
+
+#psychic-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #ff9cb8 0, #ff8ca8 16.67%, #ff7c98 33.33%, #ff6c88 50%, #ff5c78 66.67%, #ff4c68 83.33%, #ff3c58 100%);
+}
+
+#rock-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #d1c17d 0, #c1b16b 16.67%, #b1a159 33.33%, #a19148 50%, #918137 66.67%, #807126 83.33%, #706015 100%);
+}
+
+#steel-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #d1d1e0 0, #c1c1d0 16.67%, #b1b1c1 33.33%, #a1a1b1 50%, #9191a2 66.67%, #818193 83.33%, #717184 100%);
+}
+
+#ice-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #bce6e6 0, #ace0e0 16.67%, #9bdada 33.33%, #8bd4d4 50%, #7bcfcf 66.67%, #6bc9c9 83.33%, #5bc3c3 100%);
+}
+
+#ghost-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #a292bc 0, #9282ac 16.67%, #82729c 33.33%, #72628c 50%, #62527c 66.67%, #52426c 83.33%, #42325c 100%);
+}
+
+#normal-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #c6c6a7 0, #b3b392 16.67%, #a0a17c 33.33%, #8d8e67 50%, #7a7b51 66.67%, #67673c 83.33%, #545427 100%);
+}
+
+#dragon-pokemon:hover {
+    background: radial-gradient(circle at 12.5% 12.5%, #a27dff 0, #9270ff 16.67%, #825fff 33.33%, #724dff 50%, #623cff 66.67%, #522aff 83.33%, #4219ff 100%);
 }
 
 .water {
